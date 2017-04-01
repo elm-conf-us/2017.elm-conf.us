@@ -1,0 +1,10 @@
+languageCode: en-us
+title: elm-conf US 2017
+baseURL: http://example.org/
+theme: elm-conf
+
+params:
+  favicon: /favicon.png
+  social:
+    twitter: ElmConf
+    hashtag: elmconf

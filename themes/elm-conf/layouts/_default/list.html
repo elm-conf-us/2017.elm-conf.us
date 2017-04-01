@@ -1,0 +1,12 @@
+{{partial "head.html" .}}
+{{partial "nav.html" .}}
+<main>
+    {{range .Pages}}
+    <article>
+        <h2><a href="{{.URL}}">{{.Title}}</a></h2>
+        {{.Summary}}
+        <a href="{{.URL}}">Read More</a>
+    </article>
+    {{end}}
+</main>
+{{partial "footer.html" .}}

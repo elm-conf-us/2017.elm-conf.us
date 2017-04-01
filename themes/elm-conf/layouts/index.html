@@ -1,0 +1,42 @@
+{{partial "head.html" .}}
+<header class="home">
+    <div class="logo">
+        <img alt="elm-conf" src="/images/logos/elm-conf/mono-white.png"/>
+        <p>
+            September 28, 2017<br />
+            St. Louis, MO
+        </p>
+    </div>
+    <nav>
+        <ul>
+            <li>News</li>
+            <li>Speakers</li>
+            <li>About</li>
+            <li>Submit a Talk</li>
+        </ul>
+    </nav>
+    <div class="info">
+        <p>
+            elm-conf is a conference for the Elm programming language community.
+            This year we return to St. Louis on September 28 to speak, listen,
+            learn, and connect. We are colocated with Strange Loop, and the
+            conference will run on their preconference day. Join the list below
+            to be the first to know when tickets go on sale. See you soon!
+        </p>
+        <!-- TODO: mailchimp -->
+        <form action="">
+            <input name="" type="email" value="" placeholder="you@gmail.com"/>
+            <input name="" type="submit" value="Let Me Know"/>
+        </form>
+    </div>
+</header>
+<main class="home">
+    {{with index (where .Site.Pages "Section" "news") 0}}
+    <article>
+        <h1>{{.Title}}</h1>
+        {{.Summary}}
+        <a href="{{.URL}}">Read More</a>
+    </article>
+    {{end}}
+</main>
+{{partial "footer.html" .}}

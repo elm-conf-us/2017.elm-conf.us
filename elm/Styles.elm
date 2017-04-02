@@ -206,10 +206,44 @@ mainContent =
     ]
 
 
+footerContent : List Snippet
+footerContent =
+    [ footer
+        [ backgroundImage <| url "/images/footer_lodyas.png"
+        , marginTop <| squares 1
+        , paddingTop <| squares 1
+        , paddingBottom <| squares 0.75
+        , color white
+        , children
+            [ class "content"
+                [ gridContainer
+                , displayFlex
+                , flexDirection row
+                , children
+                    [ everything
+                        [ flex (int 1)
+                        , marginRight (squares 0.5)
+                        , lastChild [ marginRight zero ]
+                        ]
+                    ]
+                , descendants
+                    [ input
+                        [ display block
+                        , marginBottom (px 20)
+                        , lastChild [ marginBottom zero ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+
+
 css : Stylesheet
 css =
     (stylesheet << List.concat)
         [ setup
         , headerAndNav
         , mainContent
+        , footerContent
         ]

@@ -340,3 +340,36 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+footer {
+    background-image: url(/images/footer_lodyas.png);
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    color: #FDFDFD;
+}
+
+footer > .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+footer > .content  input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+footer > .content  input:last-child {
+    margin-bottom: 0;
+}
+
+footer > .content > * {
+    flex: 1;
+    margin-right: 50px;
+}
+
+footer > .content > :last-child {
+    margin-right: 0;
+}

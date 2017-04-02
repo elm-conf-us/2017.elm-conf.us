@@ -1,31 +1,35 @@
 <footer>
-    <section class="mailinglist">
-        <h2>Mailing List</h2>
-        <p>
-            Be the first to know when the CFP opens, when speakers are
-            announced, and when tickets go on sale.
-        </p>
-        <!-- TODO: mailchimp -->
-        <form action="">
-            <input name="" type="email" value="" placeholder="you@gmail.com"/>
-            <input name="" type="submit" value="Let Me Know"/>
-        </form>
-    </section>
-    <section class="sponsorships">
-        <p>
-            Sponsorships are available for elm-conf 2017 at a variety of levels.
-            <a href="TODO">Download our prospectus</a> or
-            <a href="mailto:elm-conf@thestrangeloop.com">email elm-conf@thestrangeloop.com</a>
-            for more information.
-        </p>
-    </section>
-    <section class="contact">
-        <ul>
-            <li><a href="mailto:elm-conf@thestrangeloop.com">elm-conf@thestrangeloop.com</a></li>
-            <li><a href="https://twitter.com/{{.Site.Params.social.twitter}}">@{{.Site.Params.social.twitter}}</a></li>
-            <li><a href="https://twitter.com/search?q=%23{{.Site.Params.social.hashtag}}">{{.Site.Params.social.hashtag}}</a></li>
-        </ul>
-    </section>
+    <div class="content">
+        <section class="mailinglist">
+            <h2>Mailing List</h2>
+            <p>
+                Be the first to know when the CFP opens, when speakers are
+                announced, and when tickets go on sale.
+            </p>
+            <!-- TODO: mailchimp -->
+            <form action="">
+                <input name="" type="email" value="" placeholder="you@gmail.com"/>
+                <input name="" type="submit" value="Let Me Know"/>
+            </form>
+        </section>
+        <section class="sponsorships">
+            <h2>Sponsorships</h2>
+            <p>
+                Sponsorships are available for elm-conf 2017 at a variety of levels.
+                <a href="TODO">Download our prospectus</a> or
+                <a href="mailto:elm-conf@thestrangeloop.com">email elm-conf@thestrangeloop.com</a>
+                for more information.
+            </p>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li><a href="mailto:elm-conf@thestrangeloop.com">elm-conf@thestrangeloop.com</a></li>
+                <li><a href="https://twitter.com/{{.Site.Params.social.twitter}}">@{{.Site.Params.social.twitter}}</a></li>
+                <li><a href="https://twitter.com/search?q=%23{{.Site.Params.social.hashtag}}">{{.Site.Params.social.hashtag}}</a></li>
+            </ul>
+        </section>
+    </div>
 </footer>
 </body>
 </html>

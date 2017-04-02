@@ -217,6 +217,10 @@ body {
     line-height: 33px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Roboto Condensed, sans-serif;
     font-weight: bold;
@@ -234,6 +238,10 @@ input[type=text], input[type=email], input[type=submit] {
     border: 0;
     border-radius: 0;
     line-height: 0;
+}
+
+input[type=text], input[type=email] {
+    border: 1px solid #CCC;
 }
 
 input[type=submit] {
@@ -258,46 +266,72 @@ header {
 header.home {
     background-image: url(/images/header.png);
     background-position: bottom;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
+}
+
+header.home > .content {
     flex-direction: column;
+    flex-wrap: wrap;
+    height: 550px;
 }
 
-header.home  .logo {
-    padding-top: 250px;
-}
-
-header.home  .info {
+header.home > .content > .info {
     flex-direction: column;
     text-align: justify;
     align-self: flex-end;
 }
 
-header > nav {
+header.home > .content > .info > form {
+    display: flex;
+    margin-bottom: 0;
+}
+
+header.home > .content > .info > form > input[type=email] {
+    width: 100%;
+}
+
+header.home > .content > .logo {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-basis: 100%;
+}
+
+header > .content {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 125px;
 }
 
-header > nav > .logo {
+header > .content > * {
+    max-width: 750px;
+}
+
+header > .content > .logo {
     background-color: #7EBC42;
     text-align: center;
     color: #FDFDFD;
     font-weight: bold;
     padding: 30px 60px;
     margin-right: 50px;
+    width: 400px;
 }
 
-header > nav > ul {
+header > .content > nav > ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-header > nav > ul > li > a {
+header > .content > nav > ul > li > a {
     color: #FDFDFD;
+    line-height: 50px;
 }
 
-header > nav > ul > li > a:hover {
+header > .content > nav > ul > li > a:hover {
     color: #7EBC42;
 }

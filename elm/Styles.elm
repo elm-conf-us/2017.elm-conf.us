@@ -178,7 +178,7 @@ headerAndNav =
             , withClass "home"
                 [ backgroundImage (url "/images/header.png")
                 , backgroundPosition bottom
-                , paddingBottom (squares 1.5)
+                , paddingBottom (squares 2)
                 , children
                     [ class "content"
                         [ flexDirection column
@@ -202,7 +202,53 @@ headerAndNav =
 mainContent : List Snippet
 mainContent =
     [ main_
-        [ gridContainer ]
+        [ gridContainer
+        , marginTop (squares 1)
+        , children
+            [ article
+                [ after
+                    [ display block
+                    , height zero
+                    , property "visibility" "hidden"
+                    , property "content" "\"\""
+                    , property "clear" "both"
+                    ]
+                , children
+                    [ class "siteImage"
+                        [ width (logoWidth |*| (px 0.8))
+                        , margin2 zero (logoWidth |*| (px 0.1))
+                        , borderRadius logoWidth
+                        , float left
+                        , property "filter" "grayscale()"
+                        ]
+                    ]
+                ]
+            ]
+        , withClass "home"
+            [ marginTop zero
+            , children
+                [ article
+                    [ firstChild
+                        [ children
+                            [ h1
+                                [ width logoWidth
+                                , textAlign center
+                                , marginTop <| (squares 1) |*| (px -1)
+                                , backgroundColor white
+                                , height (squares 1)
+                                , paddingTop (squares 0.25)
+                                , paddingLeft (squares 0.25)
+                                , paddingRight (squares 0.25)
+                                , fontSize (Css.em 1.7)
+                                , lineHeight (Css.em 1.2)
+                                , before [ property "content" "\"Next Up: \"" ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
     ]
 
 

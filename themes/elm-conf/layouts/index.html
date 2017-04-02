@@ -30,6 +30,7 @@
     {{with index (where .Site.Pages "Section" "news") 0}}
     <article>
         <h1>{{.Title}}</h1>
+        {{with .Params.siteImage}}<img class="siteImage" src="{{.}}"/>{{end}}
         {{.Summary}}
         <a href="{{.URL}}">Read More</a>
     </article>

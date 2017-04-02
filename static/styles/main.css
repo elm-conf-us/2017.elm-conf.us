@@ -266,7 +266,7 @@ header {
 header.home {
     background-image: url(/images/header.png);
     background-position: bottom;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
 }
 
 header.home > .content {
@@ -339,6 +339,44 @@ header > .content > nav > ul > li > a:hover {
 main {
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 100px;
+}
+
+main.home {
+    margin-top: 0;
+}
+
+main.home > article:first-child > h1 {
+    width: 400px;
+    text-align: center;
+    margin-top: -100px;
+    background-color: #FDFDFD;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.7em;
+    line-height: 1.2em;
+}
+
+main.home > article:first-child > h1::before {
+    content: "Next Up: ";
+}
+
+main > article::after {
+    display: block;
+    height: 0;
+    visibility: hidden;
+    content: "";
+    clear: both;
+}
+
+main > article > .siteImage {
+    width: 320px;
+    margin: 0 40px;
+    border-radius: 400px;
+    float: left;
+    filter: grayscale();
 }
 
 footer {

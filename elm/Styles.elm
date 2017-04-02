@@ -241,7 +241,6 @@ mainContent =
                                 , paddingRight (squares 0.25)
                                 , fontSize (Css.em 1.7)
                                 , lineHeight (Css.em 1.2)
-                                , before [ property "content" "\"Next Up: \"" ]
                                 ]
                             ]
                         ]

@@ -359,10 +359,6 @@ main.home > article:first-child > h1 {
     line-height: 1.2em;
 }
 
-main.home > article:first-child > h1::before {
-    content: "Next Up: ";
-}
-
 main > article::after {
     display: block;
     height: 0;

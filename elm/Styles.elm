@@ -24,6 +24,10 @@ black =
     hex "444548"
 
 
+
+-- grid
+
+
 gridSquare : Px
 gridSquare =
     px 100
@@ -45,6 +49,10 @@ gridContainer =
         [ maxWidth gridMaxWidth
         , margin2 zero auto
         ]
+
+
+
+-- sections
 
 
 setup : List Snippet

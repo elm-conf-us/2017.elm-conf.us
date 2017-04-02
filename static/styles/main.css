@@ -335,3 +335,8 @@ header > .content > nav > ul > li > a {
 header > .content > nav > ul > li > a:hover {
     color: #7EBC42;
 }
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}

@@ -88,12 +88,13 @@ setup =
     ]
 
 
+logoWidth =
+    squares 4
+
+
 headerAndNav : List Snippet
 headerAndNav =
     let
-        logoWidth =
-            squares 4
-
         margin =
             squares 0.5
 
@@ -198,8 +199,17 @@ headerAndNav =
         ]
 
 
+mainContent : List Snippet
+mainContent =
+    [ main_
+        [ gridContainer ]
+    ]
+
+
+css : Stylesheet
 css =
     (stylesheet << List.concat)
         [ setup
         , headerAndNav
+        , mainContent
         ]

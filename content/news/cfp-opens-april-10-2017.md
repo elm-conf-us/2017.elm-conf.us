@@ -26,7 +26,7 @@ And some tips from [Sarah Mei](https://twitter.com/sarahmei/status/8219245547799
 > "You will learn" instead of "I will teach."
 > "You will see" instead of "I will show."
 >
-> Show reviewers that you're consciously putting yourself in the place of the audience, and asking yourself: what they want to learn?
+> Show reviewers that you're consciously putting yourself in the place of the audience, and asking yourself: what do they want to learn?
 > When the talk description is about what the speaker will do, it's usually a shitty talk because the speaker can't detach from their own viewpoint.
 > I don't want talks where the speaker wants to _show_ something; I want talks where the speaker wants to _teach_ something.
 >

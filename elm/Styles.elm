@@ -277,24 +277,26 @@ mainContent =
                     ]
                 ]
             ]
-        , withClass "home"
-            [ marginTop zero
-            , children
-                [ desktop
-                    [ article
-                        [ firstChild
-                            [ children
-                                [ h1
-                                    [ width logoWidth
-                                    , textAlign center
-                                    , marginTop <| (squares 1) |*| (px -1)
-                                    , backgroundColor white
-                                    , height (squares 1)
-                                    , paddingTop (squares 0.25)
-                                    , paddingLeft (squares 0.25)
-                                    , paddingRight (squares 0.25)
-                                    , fontSize (Css.em 1.7)
-                                    , lineHeight (Css.em 1.2)
+        , children
+            [ desktop
+                [ selector "main.home"
+                    [ marginTop zero
+                    , children
+                        [ article
+                            [ firstChild
+                                [ children
+                                    [ h1
+                                        [ width logoWidth
+                                        , textAlign center
+                                        , marginTop <| (squares 1) |*| (px -1)
+                                        , backgroundColor white
+                                        , height (squares 1)
+                                        , paddingTop (squares 0.25)
+                                        , paddingLeft (squares 0.25)
+                                        , paddingRight (squares 0.25)
+                                        , fontSize (Css.em 1.7)
+                                        , lineHeight (Css.em 1.2)
+                                        ]
                                     ]
                                 ]
                             ]
@@ -318,7 +320,8 @@ footerContent =
             [ class "content"
                 [ gridContainer
                 , displayFlex
-                , flexDirection row
+                , flexDirection column
+                , padding2 zero (squares 0.25)
                 , children
                     [ everything
                         [ flex (int 1)
@@ -332,6 +335,12 @@ footerContent =
                         , marginBottom (px 20)
                         , lastChild [ marginBottom zero ]
                         ]
+                    ]
+                ]
+            , tablet
+                [ selector "footer > .content"
+                    [ flexDirection row
+                    , padding zero
                     ]
                 ]
             ]

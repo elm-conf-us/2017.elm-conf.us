@@ -380,12 +380,14 @@ main {
     padding: 0 25px;
 }
 
-main.home {
+@media screen and (min-width: 1200px) {
+        main.home {
     margin-top: 0;
+}
 }
 
 @media screen and (min-width: 1200px) {
-        article:first-child > h1 {
+        main.home > article:first-child > h1 {
     width: 400px;
     text-align: center;
     margin-top: -100px;
@@ -439,7 +441,8 @@ footer > .content {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 0 25px;
 }
 
 footer > .content  input {
@@ -458,4 +461,11 @@ footer > .content > * {
 
 footer > .content > :last-child {
     margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+        footer > .content {
+    flex-direction: row;
+    padding: 0;
+}
 }

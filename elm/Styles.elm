@@ -185,7 +185,8 @@ headerAndNav =
                 ]
     in
         [ header
-            [ color white
+            [ backgroundImage <| url "/images/footer_lodyas.png"
+            , color white
             , withClass "home" [ paddingBottom (squares 1) ]
             , children
                 [ class "content"

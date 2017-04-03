@@ -1,4 +1,4 @@
-public: $(find themes content layouts static -type f) static/styles/main.css
+public: $(shell find themes content static -type f) static/styles/main.css
 	hugo -d $@
 
 static/styles/main.css: elm/Style*.elm

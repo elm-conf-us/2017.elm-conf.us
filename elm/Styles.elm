@@ -77,7 +77,6 @@ setup =
         , color black
         , backgroundColor white
         , lineHeight <| squares 0.33
-        , backgroundImage <| url "/images/footer_lodyas.png"
         ]
     , everything
         [ boxSizing borderBox
@@ -254,9 +253,11 @@ mainContent : List Snippet
 mainContent =
     [ main_
         [ gridContainer
-        , marginTop (squares 1)
+        , marginTop <| squares 1
+        , padding2 zero (squares 0.25)
         , children
-            [ article
+            [ desktop [ main_ [ padding zero ] ]
+            , article
                 [ after
                     [ display block
                     , height zero
@@ -269,8 +270,9 @@ mainContent =
                         [ width (logoWidth |*| (px 0.8))
                         , margin2 zero (logoWidth |*| (px 0.1))
                         , borderRadius logoWidth
-                        , float left
                         , property "filter" "grayscale()"
+                        , textAlign center
+                        , children [ desktop [ class "siteImage" [ float left ] ] ]
                         ]
                     ]
                 ]
@@ -278,20 +280,22 @@ mainContent =
         , withClass "home"
             [ marginTop zero
             , children
-                [ article
-                    [ firstChild
-                        [ children
-                            [ h1
-                                [ width logoWidth
-                                , textAlign center
-                                , marginTop <| (squares 1) |*| (px -1)
-                                , backgroundColor white
-                                , height (squares 1)
-                                , paddingTop (squares 0.25)
-                                , paddingLeft (squares 0.25)
-                                , paddingRight (squares 0.25)
-                                , fontSize (Css.em 1.7)
-                                , lineHeight (Css.em 1.2)
+                [ desktop
+                    [ article
+                        [ firstChild
+                            [ children
+                                [ h1
+                                    [ width logoWidth
+                                    , textAlign center
+                                    , marginTop <| (squares 1) |*| (px -1)
+                                    , backgroundColor white
+                                    , height (squares 1)
+                                    , paddingTop (squares 0.25)
+                                    , paddingLeft (squares 0.25)
+                                    , paddingRight (squares 0.25)
+                                    , fontSize (Css.em 1.7)
+                                    , lineHeight (Css.em 1.2)
+                                    ]
                                 ]
                             ]
                         ]

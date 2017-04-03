@@ -52,6 +52,20 @@ gridContainer =
 
 
 
+-- media
+
+
+tablet : List Snippet -> Snippet
+tablet =
+    mediaQuery <| "screen and (min-width: 768px)"
+
+
+desktop : List Snippet -> Snippet
+desktop =
+    mediaQuery <| "screen and (min-width: 1200px)"
+
+
+
 -- sections
 
 
@@ -63,6 +77,7 @@ setup =
         , color black
         , backgroundColor white
         , lineHeight <| squares 0.33
+        , backgroundImage <| url "/images/footer_lodyas.png"
         ]
     , everything
         [ boxSizing borderBox
@@ -104,7 +119,7 @@ headerAndNav : List Snippet
 headerAndNav =
     let
         margin =
-            squares 0.5
+            squares 1
 
         restWidth =
             gridMaxWidth |-| logoWidth |-| margin
@@ -116,8 +131,17 @@ headerAndNav =
                 , color white
                 , fontWeight bold
                 , padding2 (px 30) (px 60)
-                , marginRight margin
                 , width logoWidth
+                , children
+                    [ desktop
+                        [ class "logo"
+                            [ flexBasis (pct 100)
+                            , displayFlex
+                            , flexDirection columnReverse
+                            , marginRight <| margin
+                            ]
+                        ]
+                    ]
                 ]
 
         navLinks =
@@ -127,8 +151,8 @@ headerAndNav =
                         [ listStyleType none
                         , padding zero
                         , displayFlex
-                        , flexDirection row
-                        , justifyContent flexEnd
+                        , flexDirection column
+                        , alignItems flexEnd
                         , children
                             [ li
                                 [ children
@@ -162,43 +186,62 @@ headerAndNav =
                 ]
     in
         [ header
-            [ width (pct 100)
-            , color white
-            , backgroundImage (url "/images/header-short.png")
-            , backgroundSize cover
-            , backgroundPosition2 (pct 50) (px -30)
-            , backgroundColor white
-            , backgroundRepeat noRepeat
+            [ color white
+            , withClass "home" [ paddingBottom (squares 1) ]
             , children
                 [ class "content"
                     [ gridContainer
                     , displayFlex
-                    , flexDirection row
+                    , flexDirection column
+                    , alignItems center
                     , justifyContent spaceBetween
-                    , height (squares 1.25)
                     , children
-                        [ everything [ maxWidth restWidth ]
-                        , masthead
+                        [ masthead
                         , navLinks
+                        , info
+                        , everything
+                            [ maxWidth (pct 80)
+                            , margin2 zero auto
+                            ]
                         ]
                     ]
                 ]
-            , withClass "home"
+            ]
+        , tablet
+            [ header
                 [ backgroundImage (url "/images/header.png")
+                , backgroundSize cover
                 , backgroundPosition bottom
-                , paddingBottom (squares 2)
+                , backgroundRepeat noRepeat
+                ]
+            ]
+        , desktop
+            [ header
+                [ backgroundImage (url "/images/header-short.png")
+                , backgroundSize cover
+                , backgroundPosition2 (pct 50) (px -30)
+                , flexDirection row
                 , children
                     [ class "content"
-                        [ flexDirection column
-                        , flexWrap wrap
-                        , height (squares 5.5)
+                        [ flexWrap wrap
+                        , flexDirection column
+                        , alignItems flexStart
+                        , height <| squares 1.25
                         , children
-                            [ info
-                            , class "logo"
-                                [ displayFlex
-                                , flexDirection columnReverse
-                                , flexBasis (pct 100)
+                            [ everything
+                                [ width restWidth
+                                , Css.margin zero
                                 ]
+                            ]
+                        ]
+                    ]
+                , withClass "home"
+                    [ backgroundImage (url "/images/header.png")
+                    , backgroundPosition bottom
+                    , children
+                        [ class "content"
+                            [ height <| squares 5
+                            , marginBottom margin
                             ]
                         ]
                     ]

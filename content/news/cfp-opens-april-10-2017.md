@@ -2,7 +2,7 @@
 title: "Call For Proposals Opens April 10, 2017"
 slug: "cfp-opens-april-10-2017"
 date: "2017-04-01T16:06:35-06:00"
-siteImage: "/images/news/2016-speakers.jpg"
+calloutImage: "/images/news/2016-speakers.jpg"
 
 ---
 

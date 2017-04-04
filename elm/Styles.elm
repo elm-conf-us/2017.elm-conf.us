@@ -266,7 +266,7 @@ mainContent =
                     , property "clear" "both"
                     ]
                 , children
-                    [ class "siteImage"
+                    [ class "calloutImage"
                         [ borderRadius logoWidth
                         , property "filter" "grayscale()"
                         , display block
@@ -275,7 +275,7 @@ mainContent =
                         , maxWidth <| logoWidth |*| (px 0.8)
                         , children
                             [ desktop
-                                [ class "siteImage"
+                                [ class "calloutImage"
                                     [ float left
                                     , important <| width <| logoWidth |*| (px 0.8)
                                     , important <| margin2 zero (logoWidth |*| (px 0.1))

@@ -410,7 +410,7 @@ main > article::after {
     clear: both;
 }
 
-main > article > .siteImage {
+main > article > .calloutImage {
     border-radius: 400px;
     filter: grayscale();
     display: block;
@@ -420,7 +420,7 @@ main > article > .siteImage {
 }
 
 @media screen and (min-width: 1200px) {
-        .siteImage {
+        .calloutImage {
     float: left;
     width: 320px !important;
     margin: 0 40px !important;

@@ -402,12 +402,6 @@ main {
 }
 }
 
-@media screen and (min-width: 1200px) {
-        main {
-    padding: 0;
-}
-}
-
 main > article::after {
     display: block;
     height: 0;
@@ -417,16 +411,25 @@ main > article::after {
 }
 
 main > article > .siteImage {
-    width: 320px;
-    margin: 0 40px;
     border-radius: 400px;
     filter: grayscale();
-    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 320px;
 }
 
 @media screen and (min-width: 1200px) {
         .siteImage {
     float: left;
+    width: 320px !important;
+    margin: 0 40px !important;
+}
+}
+
+@media screen and (min-width: 1200px) {
+        main {
+    padding: 0;
 }
 }
 

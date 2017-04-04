@@ -257,8 +257,7 @@ mainContent =
         , marginTop <| squares 1
         , padding2 zero (squares 0.25)
         , children
-            [ desktop [ main_ [ padding zero ] ]
-            , article
+            [ article
                 [ after
                     [ display block
                     , height zero
@@ -268,12 +267,21 @@ mainContent =
                     ]
                 , children
                     [ class "siteImage"
-                        [ width (logoWidth |*| (px 0.8))
-                        , margin2 zero (logoWidth |*| (px 0.1))
-                        , borderRadius logoWidth
+                        [ borderRadius logoWidth
                         , property "filter" "grayscale()"
-                        , textAlign center
-                        , children [ desktop [ class "siteImage" [ float left ] ] ]
+                        , display block
+                        , width (pct 80)
+                        , margin2 zero auto
+                        , maxWidth <| logoWidth |*| (px 0.8)
+                        , children
+                            [ desktop
+                                [ class "siteImage"
+                                    [ float left
+                                    , important <| width <| logoWidth |*| (px 0.8)
+                                    , important <| margin2 zero (logoWidth |*| (px 0.1))
+                                    ]
+                                ]
+                            ]
                         ]
                     ]
                 ]
@@ -306,6 +314,7 @@ mainContent =
                 ]
             ]
         ]
+    , desktop [ main_ [ padding zero ] ]
     ]
 
 

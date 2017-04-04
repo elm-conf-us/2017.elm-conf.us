@@ -253,6 +253,13 @@ input[type=submit] {
     border-radius: 0;
 }
 
+blockquote {
+    border-left: 2px solid #CCC;
+    color: #666;
+    margin-left: 0;
+    padding-left: 20px;
+}
+
 header {
     background-image: url(/images/footer_lodyas.png);
     color: #FDFDFD;

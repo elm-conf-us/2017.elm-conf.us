@@ -14,6 +14,11 @@ grey =
     hex "CCC"
 
 
+darkGrey : Color
+darkGrey =
+    hex "666"
+
+
 green : Color
 green =
     hex "7EBC42"
@@ -106,6 +111,12 @@ setup =
         , padding (squares 0.2)
         , border zero
         , borderRadius zero
+        ]
+    , blockquote
+        [ borderLeft3 (px 2) solid grey
+        , color darkGrey
+        , marginLeft zero
+        , paddingLeft (px 20)
         ]
     ]
 

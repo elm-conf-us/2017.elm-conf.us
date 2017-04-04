@@ -417,7 +417,7 @@ main > article::after {
 }
 
 main > article > .siteImage {
-    width: 320px;
+    max-width: 320px;
     margin: 0 40px;
     border-radius: 400px;
     filter: grayscale();

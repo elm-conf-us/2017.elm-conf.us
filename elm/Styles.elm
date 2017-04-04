@@ -162,15 +162,27 @@ headerAndNav =
                         , padding zero
                         , displayFlex
                         , flexDirection column
-                        , alignItems flexEnd
+                        , justifyContent flexEnd
                         , children
                             [ li
-                                [ children
+                                [ textAlign center
+                                , children
                                     [ a
                                         [ color white
                                         , hover [ color green ]
                                         , lineHeight (squares 0.5)
                                         ]
+                                    ]
+                                ]
+                            ]
+                        ]
+                    , tablet
+                        [ selector "header nav > ul"
+                            [ flexDirection row |> important
+                            , children
+                                [ li
+                                    [ marginRight (squares 0.5)
+                                    , lastChild [ marginRight zero ]
                                     ]
                                 ]
                             ]

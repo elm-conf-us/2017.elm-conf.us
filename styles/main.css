@@ -253,6 +253,13 @@ input[type=submit] {
     border-radius: 0;
 }
 
+blockquote {
+    border-left: 2px solid #CCC;
+    color: #666;
+    margin-left: 0;
+    padding-left: 20px;
+}
+
 header {
     background-image: url(/images/footer_lodyas.png);
     color: #FDFDFD;
@@ -402,12 +409,6 @@ main {
 }
 }
 
-@media screen and (min-width: 1200px) {
-        main {
-    padding: 0;
-}
-}
-
 main > article::after {
     display: block;
     height: 0;
@@ -416,17 +417,26 @@ main > article::after {
     clear: both;
 }
 
-main > article > .siteImage {
-    max-width: 320px;
-    margin: 0 40px;
+main > article > .calloutImage {
     border-radius: 400px;
     filter: grayscale();
-    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 320px;
 }
 
 @media screen and (min-width: 1200px) {
-        .siteImage {
+        .calloutImage {
     float: left;
+    width: 320px !important;
+    margin: 0 40px !important;
+}
+}
+
+@media screen and (min-width: 1200px) {
+        main {
+    padding: 0;
 }
 }
 

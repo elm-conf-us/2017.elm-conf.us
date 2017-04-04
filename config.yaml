@@ -1,6 +1,6 @@
 languageCode: en-us
 title: elm-conf US 2017
-baseURL: https://2017.elm-conf.us
+baseURL: https://www.elm-conf.us
 theme: elm-conf
 
 params:

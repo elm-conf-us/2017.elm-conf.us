@@ -301,7 +301,11 @@ header > .content > nav > ul {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+header > .content > nav > ul > li {
+    text-align: center;
 }
 
 header > .content > nav > ul > li > a {
@@ -315,7 +319,19 @@ header > .content > nav > ul > li > a:hover {
 
 @media screen and (min-width: 768px) {
         header nav > ul {
-    flex-direction: row;
+    flex-direction: row !important;
+}
+}
+
+@media screen and (min-width: 768px) {
+        header nav > ul > li {
+    margin-right: 50px;
+}
+}
+
+@media screen and (min-width: 768px) {
+        header nav > ul > li:last-child {
+    margin-right: 0;
 }
 }
 

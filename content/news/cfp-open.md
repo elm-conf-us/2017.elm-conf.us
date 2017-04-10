@@ -35,6 +35,6 @@ We're specifically looking for these kinds of talks:
 
 If you have a proposal that doesn't fit within these buckets, please submit it anyway. These are only guidelines and things to get your thoughts flowing about what you'd like to talk about.
 
-That said, we probably won't accept talks about category theory or other high-level mathematical concepts, talks solely about how Elm is insufficient or bad, or talks about non-Elm related frontend work. The focus of the conference is on shipping working software using Elm and making Elm more mainstream. But, if you have a *really* strong idea, go ahead and submit it before the last week and we'll give you feedback directly.
+That said, we probably won't accept talks about category theory or other high-level mathematical concepts, talks solely about how Elm is insufficient or bad, talks about non-Elm related frontend work, or talks that are not about Elm. The focus of the conference is on shipping working software using Elm and making Elm more mainstream. But, if you have a *really* strong idea, go ahead and submit it before the last week and we'll give you feedback directly.
 
 For more general guidelines on writing talk proposals, [see our CFP announcement post]({{< ref "cfp-opens-april-10-2017.md" >}}).

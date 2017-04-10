@@ -12,7 +12,7 @@ Submissions will be evaluated blindly by a small panel.
 Accepted speakers will get a ticket to the conference, lodging, and travel assistance.
 
 If it's your first time proposing a talk, don't worry!
-We'll provide a round of feedback for all talks submitted before the last three days of the CFP period.
+We'll provide a round of feedback for all talks submitted before the last week of the CFP period.
 
 <!--more-->
 

@@ -308,9 +308,15 @@ header > .content > nav > ul > li {
     text-align: center;
 }
 
+header > .content > nav > ul > li.callout {
+    border: 1px solid #FDFDFD;
+}
+
 header > .content > nav > ul > li > a {
     color: #FDFDFD;
     line-height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 header > .content > nav > ul > li > a:hover {
@@ -325,7 +331,7 @@ header > .content > nav > ul > li > a:hover {
 
 @media screen and (min-width: 768px) {
         header nav > ul > li {
-    margin-right: 50px;
+    margin-right: 25px;
 }
 }
 

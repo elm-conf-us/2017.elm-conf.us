@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.elm-conf.us/news/cfp-open/</loc>
+    <lastmod>2017-04-10T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.elm-conf.us/sponsors/</loc>
     <lastmod>2017-04-04T00:00:00-06:00</lastmod>
   </url>
@@ -13,13 +18,13 @@
   
   <url>
     <loc>https://www.elm-conf.us/news/</loc>
-    <lastmod>2017-04-01T16:06:35-06:00</lastmod>
+    <lastmod>2017-04-10T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.elm-conf.us/</loc>
-    <lastmod>2017-04-01T16:06:35-06:00</lastmod>
+    <lastmod>2017-04-10T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   

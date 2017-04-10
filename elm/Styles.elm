@@ -171,7 +171,12 @@ headerAndNav =
                                         [ color white
                                         , hover [ color green ]
                                         , lineHeight (squares 0.5)
+                                        , paddingLeft (squares 0.25)
+                                        , paddingRight (squares 0.25)
                                         ]
+                                    ]
+                                , withClass "callout"
+                                    [ border3 (px 1) solid white
                                     ]
                                 ]
                             ]
@@ -181,7 +186,7 @@ headerAndNav =
                             [ flexDirection row |> important
                             , children
                                 [ li
-                                    [ marginRight (squares 0.5)
+                                    [ marginRight (squares 0.25)
                                     , lastChild [ marginRight zero ]
                                     ]
                                 ]

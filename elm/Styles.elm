@@ -293,6 +293,13 @@ mainContent =
                     , property "content" "\"\""
                     , property "clear" "both"
                     ]
+                , adjacentSiblings
+                    [ article
+                        [ marginTop <| squares 0.5
+                        , paddingTop <| squares 0.5
+                        , borderTop3 (px 1) solid grey
+                        ]
+                    ]
                 , children
                     [ class "calloutImage"
                         [ borderRadius logoWidth

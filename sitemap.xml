@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.elm-conf.us/news/keynote-speakers/</loc>
+    <lastmod>2017-05-04T09:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/sponsors/oasisdigital/</loc>
+    <lastmod>2017-05-03T08:48:33-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.elm-conf.us/news/cfp-open/</loc>
     <lastmod>2017-04-10T00:00:00-06:00</lastmod>
   </url>
@@ -18,13 +28,13 @@
   
   <url>
     <loc>https://www.elm-conf.us/news/</loc>
-    <lastmod>2017-04-10T00:00:00-06:00</lastmod>
+    <lastmod>2017-05-04T09:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.elm-conf.us/</loc>
-    <lastmod>2017-04-10T00:00:00-06:00</lastmod>
+    <lastmod>2017-05-04T09:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   

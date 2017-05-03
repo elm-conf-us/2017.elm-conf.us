@@ -6,8 +6,26 @@
     <description>Recent content in News on elm-conf US 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Apr 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 04 May 2017 09:00:00 -0500</lastBuildDate>
     <atom:link href="https://www.elm-conf.us/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>elm-conf US 2017 Keynote Speakers Announced</title>
+      <link>https://www.elm-conf.us/news/keynote-speakers/</link>
+      <pubDate>Thu, 04 May 2017 09:00:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/news/keynote-speakers/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re pleased to announce that Evan Czaplicki and Richard Feldman will be keynoting elm-conf US 2017.&lt;/p&gt;
+
+&lt;p&gt;Evan Bio&lt;/p&gt;
+
+&lt;p&gt;Richard Bio&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;d like to speak, the CFP is still open until &lt;strong&gt;May 12&lt;/strong&gt;, and you can get feedback on your proposal if you submit before &lt;strong&gt;May 8&lt;/strong&gt;.
+&lt;a href=&#34;https://cfp.elm-conf.us&#34;&gt;cfp.elm-conf.us&lt;/a&gt; has more details, or &lt;a href=&#34;https://www.elm-conf.us/news/cfp-open/&#34;&gt;see our previous post with tips for submissions&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Call For Proposals Open Through May 12</title>

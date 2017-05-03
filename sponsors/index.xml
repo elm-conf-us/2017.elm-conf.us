@@ -9,5 +9,15 @@
     <lastBuildDate>Tue, 04 Apr 2017 00:00:00 -0600</lastBuildDate>
     <atom:link href="https://www.elm-conf.us/sponsors/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Oasis Digital</title>
+      <link>https://www.elm-conf.us/sponsors/oasisdigital/</link>
+      <pubDate>Wed, 03 May 2017 08:48:33 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsors/oasisdigital/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://oasisdigital.com/&#34;&gt;Oasis Digital&lt;/a&gt; is a custom software development firm in St. Louis, MO. We create high quality software and solve hard problems, to help our customers thrive.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

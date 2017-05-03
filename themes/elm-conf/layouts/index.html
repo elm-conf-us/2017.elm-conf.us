@@ -24,7 +24,7 @@
 </header>
 <main class="home">
     {{with index (where .Site.Pages "Section" "news") 0}}
-    {{partial "summary.html" .}}
+    {{.Render "summary"}}
     {{end}}
 </main>
 {{partial "footer.html" .}}

@@ -6,7 +6,7 @@
     {{.Content}}
     {{end}}
     {{range .Pages}}
-    {{partial "summary.html" .}}
+    {{.Render "summary"}}
     {{end}}
 </main>
 {{partial "footer.html" .}}

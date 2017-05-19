@@ -338,7 +338,9 @@ mainContent =
                 [ children
                     [ h2
                         [ withClass "level"
-                            [ marginBottom <| squares 1 ]
+                            [ marginBottom <| squares 0.5
+                            , marginTop <| squares 0.5
+                            ]
                         ]
                     ]
                 ]

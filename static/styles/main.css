@@ -483,7 +483,8 @@ main  article + article {
 }
 
 main  section > h2.level {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 @media screen and (min-width: 1200px) {

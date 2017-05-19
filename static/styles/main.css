@@ -492,6 +492,28 @@ main  section > h2.level {
 }
 }
 
+#sponsors {
+    padding-top: 50px;
+    margin-top: 50px;
+    border-top: 1px solid #CCC;
+}
+
+#sponsors > ul {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsors > ul > li  img {
+    width: 300px;
+    margin: 50px;
+}
+
 footer {
     background-image: url(/images/footer_lodyas.png);
     margin-top: 100px;

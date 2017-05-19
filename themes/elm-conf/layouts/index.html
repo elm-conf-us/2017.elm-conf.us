@@ -26,5 +26,16 @@
     {{with index (where .Site.Pages "Section" "news") 0}}
     {{.Render "summary"}}
     {{end}}
+
+    <section id="sponsors">
+        <h2>Sponsors</h2>
+        <ul>
+        {{range where .Site.Pages "Section" "sponsors"}}
+        {{if ne .Title "Sponsorships"}}
+            <li><a href="/sponsors/"><img alt="{{.Title}}" src="{{.Params.logo}}"/></a></li>
+        {{end}}
+        {{end}}
+        </ul>
+    </section>
 </main>
 {{partial "footer.html" .}}

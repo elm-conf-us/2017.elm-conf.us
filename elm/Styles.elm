@@ -375,6 +375,38 @@ mainContent =
     ]
 
 
+sponsorBlock : List Snippet
+sponsorBlock =
+    [ id "sponsors"
+        [ paddingTop <| squares 0.5
+        , marginTop <| squares 0.5
+        , borderTop3 (px 1) solid grey
+        , children
+            [ ul
+                [ listStyleType none
+                , paddingLeft zero
+                , width (pct 100)
+                , displayFlex
+                , flexWrap wrap
+                , flexDirection row
+                , justifyContent center
+                , alignItems center
+                , children
+                    [ li
+                        [ descendants
+                            [ img
+                                [ width <| squares 3
+                                , margin <| squares 0.5
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+
+
 footerContent : List Snippet
 footerContent =
     [ footer
@@ -421,5 +453,6 @@ css =
         [ setup
         , headerAndNav
         , mainContent
+        , sponsorBlock
         , footerContent
         ]

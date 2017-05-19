@@ -1,0 +1,55 @@
+{{partial "head.html" .}}
+{{partial "nav.html" .}}
+<main>
+    {{if ne .Content ""}}
+    <h1>{{.Title}}</h1>
+    {{.Content}}
+    {{end}}
+    <hr />
+
+    {{with where .Pages "Params.level" "root"}}
+    <section id="root-sponsors">
+        <h2>Root Sponsors</h2>
+        {{range .}}
+        {{.Render "full"}}
+        {{end}}
+    </section>
+    {{end}}
+
+    {{with where .Pages "Params.level" "branch"}}
+    <section id="branch-sponsors">
+        <h2>Branch Sponsors</h2>
+        {{range .}}
+        {{.Render "full"}}
+        {{end}}
+    </section>
+    {{end}}
+
+    {{with where .Pages "Params.level" "production"}}
+    <section id="production-sponsors">
+        <h2>Production Sponsors</h2>
+        {{range .}}
+        {{.Render "full"}}
+        {{end}}
+    </section>
+    {{end}}
+
+    {{with where .Pages "Params.level" "diversity"}}
+    <section id="diversity-sponsors">
+        <h2>Diversity Sponsors</h2>
+        {{range .}}
+        {{.Render "full"}}
+        {{end}}
+    </section>
+    {{end}}
+
+    {{with where .Pages "Params.level" "media"}}
+    <section id="media-sponsors">
+        <h2>Media Sponsors</h2>
+        {{range .}}
+        {{.Render "full"}}
+        {{end}}
+    </section>
+    {{end}}
+</main>
+{{partial "footer.html" .}}

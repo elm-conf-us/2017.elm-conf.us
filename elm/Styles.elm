@@ -284,7 +284,7 @@ mainContent =
         [ gridContainer
         , marginTop <| squares 1
         , padding2 zero (squares 0.25)
-        , children
+        , descendants
             [ article
                 [ after
                     [ display block
@@ -317,6 +317,28 @@ mainContent =
                                     ]
                                 ]
                             ]
+                        ]
+                    , class "logo-sponsor"
+                        [ display block
+                        , maxWidth logoWidth
+                        , margin2 zero auto
+                        , children
+                            [ desktop
+                                [ class "logo-sponsor"
+                                    [ float left
+                                    , marginLeft zero
+                                    , important <| marginRight <| logoWidth |*| (px 0.1)
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            , section
+                [ children
+                    [ h2
+                        [ withClass "level"
+                            [ marginBottom <| squares 1 ]
                         ]
                     ]
                 ]

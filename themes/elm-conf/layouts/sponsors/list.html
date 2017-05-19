@@ -5,11 +5,10 @@
     <h1>{{.Title}}</h1>
     {{.Content}}
     {{end}}
-    <hr />
 
     {{with where .Pages "Params.level" "root"}}
     <section id="root-sponsors">
-        <h2>Root Sponsors</h2>
+        <h2 class="level">Root Sponsors</h2>
         {{range .}}
         {{.Render "full"}}
         {{end}}
@@ -18,7 +17,7 @@
 
     {{with where .Pages "Params.level" "branch"}}
     <section id="branch-sponsors">
-        <h2>Branch Sponsors</h2>
+        <h2 class="level">Branch Sponsors</h2>
         {{range .}}
         {{.Render "full"}}
         {{end}}
@@ -27,7 +26,7 @@
 
     {{with where .Pages "Params.level" "production"}}
     <section id="production-sponsors">
-        <h2>Production Sponsors</h2>
+        <h2 class="level">Production Sponsors</h2>
         {{range .}}
         {{.Render "full"}}
         {{end}}
@@ -36,7 +35,7 @@
 
     {{with where .Pages "Params.level" "diversity"}}
     <section id="diversity-sponsors">
-        <h2>Diversity Sponsors</h2>
+        <h2 class="level">Diversity Sponsors</h2>
         {{range .}}
         {{.Render "full"}}
         {{end}}
@@ -45,7 +44,7 @@
 
     {{with where .Pages "Params.level" "media"}}
     <section id="media-sponsors">
-        <h2>Media Sponsors</h2>
+        <h2 class="level">Media Sponsors</h2>
         {{range .}}
         {{.Render "full"}}
         {{end}}

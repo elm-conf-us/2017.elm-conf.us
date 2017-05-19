@@ -437,7 +437,7 @@ main {
 }
 }
 
-main > article::after {
+main  article::after {
     display: block;
     height: 0;
     visibility: hidden;
@@ -445,7 +445,7 @@ main > article::after {
     clear: both;
 }
 
-main > article > .calloutImage {
+main  article > .calloutImage {
     border-radius: 400px;
     filter: grayscale();
     display: block;
@@ -462,16 +462,57 @@ main > article > .calloutImage {
 }
 }
 
-main > article + article {
+main  article > .logo-sponsor {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+        .logo-sponsor {
+    float: left;
+    margin-left: 0;
+    margin-right: 40px !important;
+}
+}
+
+main  article + article {
     margin-top: 50px;
     padding-top: 50px;
     border-top: 1px solid #CCC;
+}
+
+main  section > h2.level {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 @media screen and (min-width: 1200px) {
         main {
     padding: 0;
 }
+}
+
+#sponsors {
+    padding-top: 50px;
+    margin-top: 50px;
+    border-top: 1px solid #CCC;
+}
+
+#sponsors > ul {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsors > ul > li  img {
+    width: 300px;
+    margin: 50px;
 }
 
 footer {

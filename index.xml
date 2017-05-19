@@ -2,12 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>elm-conf US 2017</title>
-    <link>https://www.elm-conf.us/index.xml</link>
+    <link>https://www.elm-conf.us/</link>
     <description>Recent content on elm-conf US 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Apr 2017 00:00:00 -0600</lastBuildDate>
-    <atom:link href="https://www.elm-conf.us/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 May 2017 09:40:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.elm-conf.us/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oasis Digital</title>
+      <link>https://www.elm-conf.us/sponsors/oasis-digital/</link>
+      <pubDate>Fri, 19 May 2017 09:40:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsors/oasis-digital/</guid>
+      <description>Oasis Digital is a custom software development firm in St. Louis, MO. We create high quality software and solve hard problems, to help our customers thrive.</description>
+    </item>
+    
+    <item>
+      <title>NoRedInk</title>
+      <link>https://www.elm-conf.us/sponsors/noredink/</link>
+      <pubDate>Fri, 19 May 2017 09:39:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsors/noredink/</guid>
+      <description>NoRedInk has the largest commercial Elm codebase in the world, and has hired Elm creator, Evan Czaplicki, to develop the language full-time. We spend almost all of our front-end coding time writing Elm. Our software helps English teachers, and their students answer millions of questions per day on our site. About half of our 20-person engineering team works remotely from around the world, and the other half is in our San Francisco office.</description>
+    </item>
+    
+    <item>
+      <title>thoughtbot</title>
+      <link>https://www.elm-conf.us/sponsors/thoughtbot/</link>
+      <pubDate>Fri, 19 May 2017 09:38:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsors/thoughtbot/</guid>
+      <description>thoughtbot is one of the leading design and development companies in the world. Our extensive experience in building successful products, and design and development best-practices makes thoughtbot an ideal partner in launching your next product or improving your existing product and team.</description>
+    </item>
+    
+    <item>
+      <title>Manning</title>
+      <link>https://www.elm-conf.us/sponsors/manning/</link>
+      <pubDate>Fri, 19 May 2017 08:39:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsors/manning/</guid>
+      <description>Manning is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.</description>
+    </item>
     
     <item>
       <title>Call For Proposals Open Through May 12</title>
@@ -34,26 +72,7 @@ Submit your talks at &lt;a href=&#34;https://cfp.elm-conf.us/events/elm-conf-us-
 
 &lt;p&gt;Accepted speakers will receive, in addition to their speaking slot, tickets to elm-conf and Strange Loop, lodging, and travel booking. If you are coming from within the continental United States, we&amp;rsquo;ll be able to cover your travel totally. Otherwise, we will provide you a stipend of $550 for your flights.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
-
-&lt;p&gt;We&amp;rsquo;re specifically looking for these kinds of talks:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Case Studies&lt;/strong&gt;: How do you use Elm at work? For clients? As a part of your larger open-source project?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Personal Projects&lt;/strong&gt;: What are you working on that excites you? How are you using Elm and/or Elm packages?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multidisciplinary&lt;/strong&gt;: Have you done something cool with Elm and graphics? Music? Hardware? Any non-computer-science field of study?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Teaching&lt;/strong&gt;: have you thought of a fun way to teach a concept? What mistake did you keep making until you learned &lt;code&gt;X&lt;/code&gt;? What could people do if they just knew about &lt;code&gt;Y&lt;/code&gt;?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have a proposal that doesn&amp;rsquo;t fit within these buckets, please submit it anyway. These are only guidelines and things to get your thoughts flowing about what you&amp;rsquo;d like to talk about.&lt;/p&gt;
-
-&lt;p&gt;That said, we probably won&amp;rsquo;t accept talks about category theory or other high-level mathematical concepts, talks solely about how Elm is insufficient or bad, talks about non-Elm related frontend work, or talks that are not about Elm. The focus of the conference is on shipping working software using Elm and making Elm more mainstream. But, if you have a &lt;em&gt;really&lt;/em&gt; strong idea, go ahead and submit it before the last week and we&amp;rsquo;ll give you feedback directly.&lt;/p&gt;
-
-&lt;p&gt;For more general guidelines on writing talk proposals, &lt;a href=&#34;https://www.elm-conf.us/news/cfp-opens-april-10-2017/&#34;&gt;see our CFP announcement post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Clarification 2017-04-16&lt;/strong&gt;: If you are the maintainer for a particular part of the Elm ecosystem, by all means feel free to talk about your future plans for it! However, elm-conf talks should not speculate on what others might do, and especially should not pressure others to change course; the one-way nature of the elm-conf stage makes it unsuitable for debate. If you have suggestions for what the language and ecosystem might do in the future, &lt;a href=&#34;https://groups.google.com/forum/#!forum/elm-discuss&#34;&gt;elm-discuss&lt;/a&gt;, &lt;a href=&#34;https://www.reddit.com/r/elm&#34;&gt;/r/elm&lt;/a&gt;, and &lt;a href=&#34;http://elmlang.herokuapp.com/&#34;&gt;the Elm Slack&lt;/a&gt; are more appropriate venues.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -70,40 +89,7 @@ Accepted speakers will get a ticket to the conference, lodging, and travel assis
 &lt;p&gt;If it&amp;rsquo;s your first time proposing a talk, don&amp;rsquo;t worry!
 We&amp;rsquo;ll provide a round of feedback for all talks submitted before the last week of the CFP period.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;That said, here are some resources for writing good talk proposals:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal&#34;&gt;Dave Cheney: How to Write a Successful Conference Proposal&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And some tips from &lt;a href=&#34;https://twitter.com/sarahmei/status/821924554779955200&#34;&gt;Sarah Mei&lt;/a&gt;, reproduced here:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;My #1 conf talk description tip: no first-person sentences.
-&amp;ldquo;You will learn&amp;rdquo; instead of &amp;ldquo;I will teach.&amp;rdquo;
-&amp;ldquo;You will see&amp;rdquo; instead of &amp;ldquo;I will show.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Show reviewers that you&amp;rsquo;re consciously putting yourself in the place of the audience, and asking yourself: what do they want to learn?
-When the talk description is about what the speaker will do, it&amp;rsquo;s usually a shitty talk because the speaker can&amp;rsquo;t detach from their own viewpoint.
-I don&amp;rsquo;t want talks where the speaker wants to &lt;em&gt;show&lt;/em&gt; something; I want talks where the speaker wants to &lt;em&gt;teach&lt;/em&gt; something.&lt;/p&gt;
-
-&lt;p&gt;The difference between show and teach is how much responsibility the speaker takes for helping the audience understand.
-&amp;ldquo;You will learn X&amp;rdquo; isn&amp;rsquo;t asserting an outcome&amp;ndash;it&amp;rsquo;s helping the audience imagine what they could walk out knowing that they don&amp;rsquo;t know now.
-It connects to people in a more visceral way than &amp;ldquo;I will show X,&amp;rdquo; and invests them in your success as a speaker.
-Using &amp;ldquo;we&amp;rdquo; (&amp;ldquo;we will explore&amp;rdquo;) similarly signals reviewers that you&amp;rsquo;re thinking of the audience, and can feel more collaborative than &amp;ldquo;you.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;The three overarching goals of removing first person from a talk description:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Help you, as the speaker, frame the talk around what the audience wants to learn instead of what you want to show.&lt;/li&gt;
-&lt;li&gt;Signal folks reviewing the proposal that you&amp;rsquo;re already thinking about how their audience will get what they want from your talk.&lt;/li&gt;
-&lt;li&gt;Connect with potential audience members &amp;amp; get them excited about what they&amp;rsquo;ll learn if they go to your talk.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This last one is most important for a multi-track conference, but can also help sell tickets even if the conf is a single track.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

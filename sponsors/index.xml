@@ -2,12 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sponsorships on elm-conf US 2017</title>
-    <link>https://www.elm-conf.us/sponsors/index.xml</link>
+    <link>https://www.elm-conf.us/sponsors/</link>
     <description>Recent content in Sponsorships on elm-conf US 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Apr 2017 00:00:00 -0600</lastBuildDate>
-    <atom:link href="https://www.elm-conf.us/sponsors/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.elm-conf.us/sponsors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oasis Digital</title>
+      <link>https://www.elm-conf.us/sponsors/oasis-digital/</link>
+      <pubDate>Fri, 19 May 2017 09:40:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsors/oasis-digital/</guid>
+      <description>Oasis Digital is a custom software development firm in St. Louis, MO. We create high quality software and solve hard problems, to help our customers thrive.</description>
+    </item>
+    
+    <item>
+      <title>NoRedInk</title>
+      <link>https://www.elm-conf.us/sponsors/noredink/</link>
+      <pubDate>Fri, 19 May 2017 09:39:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsors/noredink/</guid>
+      <description>NoRedInk has the largest commercial Elm codebase in the world, and has hired Elm creator, Evan Czaplicki, to develop the language full-time. We spend almost all of our front-end coding time writing Elm. Our software helps English teachers, and their students answer millions of questions per day on our site. About half of our 20-person engineering team works remotely from around the world, and the other half is in our San Francisco office.</description>
+    </item>
+    
+    <item>
+      <title>thoughtbot</title>
+      <link>https://www.elm-conf.us/sponsors/thoughtbot/</link>
+      <pubDate>Fri, 19 May 2017 09:38:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsors/thoughtbot/</guid>
+      <description>thoughtbot is one of the leading design and development companies in the world. Our extensive experience in building successful products, and design and development best-practices makes thoughtbot an ideal partner in launching your next product or improving your existing product and team.</description>
+    </item>
+    
+    <item>
+      <title>Manning</title>
+      <link>https://www.elm-conf.us/sponsors/manning/</link>
+      <pubDate>Fri, 19 May 2017 08:39:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsors/manning/</guid>
+      <description>Manning is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.</description>
+    </item>
     
   </channel>
 </rss>

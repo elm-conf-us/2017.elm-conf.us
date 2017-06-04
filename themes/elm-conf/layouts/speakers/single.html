@@ -1,0 +1,10 @@
+{{partial "head.html" .}}
+{{partial "nav.html" .}}
+<main>
+    <article>
+        <h1>{{dateFormat "3:04PM" .Params.slot}}: <a href="{{.Permalink}}">{{.Title}} &mdash; {{.Params.talk}}</a></h1>
+        {{with .Params.headshot}}<img class="calloutImage" src="{{.}}"/>{{end}}
+        {{.Content}}
+    </article>
+</main>
+{{partial "footer.html" .}}

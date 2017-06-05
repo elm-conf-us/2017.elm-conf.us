@@ -9,7 +9,7 @@ We're pleased to announce the 2017 elm-conf speaker lineup.
 It's a wonderful mix of veteran and new speakers across a wide variety of topics.
 Our full speaker lineup and full schedule can be found on [the talks page](/talks/), or you can [add our calendar to your schedule](webcal://www.elm-conf.us/talks/index.ics) for the most up-to-date information as we get closer to September 28.
 
-We will be recording all the talks and making them available online thanks to our kind sponsors at [Ableton](http://localhost:1313/sponsors/ableton/).
+We will be recording all the talks and making them available online thanks to our kind sponsors at [Ableton]({{< ref "sponsors/ableton.md" >}}).
 Thanks to [Futurice](http://futurice.com/) we will have live captioning at the venue on the day of the conference.
 A huge thank you to both sponsors for helping us make elm-conf more accessible to everyone!
 

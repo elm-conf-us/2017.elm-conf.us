@@ -4,7 +4,6 @@ title: "Sponsorships"
 ---
 
 Sponsorships for elm-conf US 2017 are still available.
-They range from stage presence and booths to lanyards to video recording and captioning.
 [Download the full prospectus](/prospectus.pdf) for more details, or [contact the organizing team](mailto:elm-conf@thestrangeloop.com).
 
 <!--more-->

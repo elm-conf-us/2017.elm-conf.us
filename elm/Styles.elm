@@ -336,7 +336,7 @@ mainContent =
                 ]
             , section
                 [ children
-                    [ h2
+                    [ h1
                         [ withClass "level"
                             [ marginBottom <| squares 0.5
                             , marginTop <| squares 0.5

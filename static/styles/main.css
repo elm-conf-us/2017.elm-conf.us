@@ -482,7 +482,7 @@ main  article + article {
     border-top: 1px solid #CCC;
 }
 
-main  section > h2.level {
+main  section > h1.level {
     margin-bottom: 50px;
     margin-top: 50px;
 }

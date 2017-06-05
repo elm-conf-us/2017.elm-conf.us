@@ -479,7 +479,6 @@ main  article > .logo-sponsor {
 main  article + article {
     margin-top: 50px;
     padding-top: 50px;
-    border-top: 1px solid #CCC;
 }
 
 main  section > h1.level {

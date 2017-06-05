@@ -297,7 +297,6 @@ mainContent =
                     [ article
                         [ marginTop <| squares 0.5
                         , paddingTop <| squares 0.5
-                        , borderTop3 (px 1) solid grey
                         ]
                     ]
                 , children

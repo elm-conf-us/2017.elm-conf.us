@@ -1,5 +1,5 @@
 <article>
-    <h2>{{dateFormat "3:04PM" .Params.slot}}: <a href="{{.Permalink}}">{{.Title}} &mdash; {{.Params.talk}}</a></h2>
+    <h2>{{dateFormat "3:04PM" .Params.slot.start}}&ndash;{{dateFormat "3:04PM" .Params.slot.end}}: <a href="{{.Permalink}}">{{.Title}} &mdash; {{.Params.talk}}</a></h2>
     {{with .Params.headshot}}<img class="calloutImage" src="{{.}}"/>{{end}}
     {{.Summary}}
     {{if ne .Summary .Content}}<a href="{{.URL}}">Full Talk Details{{with .Params.video}} and Video{{end}}</a>{{end}}

@@ -5,7 +5,7 @@
     <h1>{{.Title}}</h1>
     {{.Content}}
     {{end}}
-    {{range sort .Pages ".Params.slot" "asc"}}
+    {{range sort .Pages ".Params.slot.start" "asc"}}
     {{.Render "summary"}}
     {{end}}
 </main>

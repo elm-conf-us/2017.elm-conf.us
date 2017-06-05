@@ -10,7 +10,7 @@ It's a wonderful mix of veteran and new speakers across a wide variety of topics
 Our full speaker lineup and full schedule can be found on [the talks page](/talks/), or you can [add our calendar to your schedule](webcal://www.elm-conf.us/talks/index.ics) for the most up-to-date information as we get closer to September 28.
 
 We will be recording all the talks and making them available online thanks to our kind sponsors at [Ableton]({{< ref "sponsors/ableton.md" >}}).
-Thanks to [Futurice](http://futurice.com/) we will have live captioning at the venue on the day of the conference.
+Thanks to [Futurice]({{< ref "sponsors/futurice.md" >}}) we will have live captioning at the venue on the day of the conference.
 A huge thank you to both sponsors for helping us make elm-conf more accessible to everyone!
 
 Registration for elm-conf opens Thursday, June 8 at 10AM Central Time.

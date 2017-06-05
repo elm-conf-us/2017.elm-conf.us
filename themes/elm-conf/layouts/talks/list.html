@@ -1,0 +1,12 @@
+{{partial "head.html" .}}
+{{partial "nav.html" .}}
+<main>
+    {{if ne .Content ""}}
+    <h1>{{.Title}}</h1>
+    {{.Content}}
+    {{end}}
+    {{range sort .Pages ".Params.slot.start" "asc"}}
+    {{.Render "summary"}}
+    {{end}}
+</main>
+{{partial "footer.html" .}}

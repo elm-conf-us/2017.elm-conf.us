@@ -186,7 +186,7 @@ headerAndNav =
                             [ flexDirection row |> important
                             , children
                                 [ li
-                                    [ marginRight (squares 0.25)
+                                    [ marginRight (squares 0.1)
                                     , lastChild [ marginRight zero ]
                                     ]
                                 ]

@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//elm-conf//speaker calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Tereza Sokol – If Coco Chanel Reviewed Elm
+UID:2017-09-28T15:30:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170604T092400Z
+DTSTART;TZID=America/Chicago:20170928T153000
+DTEND;TZID=America/Chicago:20170928T155000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/speakers/tereza-sokol/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Peter Zingg – Case Study: Activate Your Interface with CSS and Elm
+UID:2017-09-28T14:10:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170604T090000Z
+DTSTART;TZID=America/Chicago:20170928T141000
+DTEND;TZID=America/Chicago:20170928T143000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/speakers/peter-zingg/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Tessa Kelly – Accessibility with Elm
+UID:2017-09-28T09:45:00-05:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170604T090000Z
+DTSTART;TZID=America/Chicago:20170928T094500
+DTEND;TZID=America/Chicago:20170928T103000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/speakers/tessa-kelly/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Andrey Kuzmin – Mogee or how we fit Elm in a 64×64 grid
+UID:2017-09-28T15:00:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170603T142200Z
+DTSTART;TZID=America/Chicago:20170928T150000
+DTEND;TZID=America/Chicago:20170928T152000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/speakers/andrey-kuzmin/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Richard Feldman – Closing Keynote
+UID:2017-09-28T16:00:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170602T183300Z
+DTSTART;TZID=America/Chicago:20170928T160000
+DTEND;TZID=America/Chicago:20170928T162000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/speakers/richard-feldman/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Murphy Randle – A very im-port-ant topic
+UID:2017-09-28T10:40:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170602T183100Z
+DTSTART;TZID=America/Chicago:20170928T104000
+DTEND;TZID=America/Chicago:20170928T110000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/speakers/murphy-randle/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Jeremy Fairbank – Solve the Boolean Identity Crisis
+UID:2017-09-28T13:10:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170602T182700Z
+DTSTART;TZID=America/Chicago:20170928T131000
+DTEND;TZID=America/Chicago:20170928T135500
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/speakers/jeremy-fairbank/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Evan Czaplicki – Keynote
+UID:2017-09-28T08:05:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170602T182200Z
+DTSTART;TZID=America/Chicago:20170928T080500
+DTEND;TZID=America/Chicago:20170928T085000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/speakers/evan-czaplicki/
+END:VEVENT
+END:VCALENDAR

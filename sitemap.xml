@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.elm-conf.us/sponsors/ableton/</loc>
+    <lastmod>2017-06-05T08:26:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/afternoon-break/</loc>
+    <lastmod>2017-06-05T13:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/lunch/</loc>
+    <lastmod>2017-06-05T13:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/morning-break/</loc>
+    <lastmod>2017-06-05T13:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/news/lineup/</loc>
+    <lastmod>2017-06-05T08:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/jonas-coch/</loc>
+    <lastmod>2017-06-05T11:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/luke-westby/</loc>
+    <lastmod>2017-06-05T11:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/peter-zingg/</loc>
+    <lastmod>2017-06-04T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/tereza-sokol/</loc>
+    <lastmod>2017-06-04T13:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/tessa-kelly/</loc>
+    <lastmod>2017-06-04T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/andrey-kuzmin/</loc>
+    <lastmod>2017-06-03T19:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/richard-feldman/</loc>
+    <lastmod>2017-06-02T23:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/murphy-randle/</loc>
+    <lastmod>2017-06-02T23:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/jeremy-fairbank/</loc>
+    <lastmod>2017-06-02T23:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/talks/evan-czaplicki/</loc>
+    <lastmod>2017-06-02T23:22:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://www.elm-conf.us/about/</loc>
@@ -48,7 +124,7 @@
   
   <url>
     <loc>https://www.elm-conf.us/news/</loc>
-    <lastmod>2017-04-10T00:00:00-06:00</lastmod>
+    <lastmod>2017-06-05T08:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,8 +134,14 @@
   </url>
   
   <url>
+    <loc>https://www.elm-conf.us/talks/</loc>
+    <lastmod>2017-06-05T13:25:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.elm-conf.us/</loc>
-    <lastmod>2017-05-19T09:40:00-05:00</lastmod>
+    <lastmod>2017-06-05T08:26:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   

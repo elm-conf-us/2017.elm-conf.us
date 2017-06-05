@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on elm-conf US 2017</title>
+    <link>https://www.elm-conf.us/talks/</link>
+    <description>Recent content in Talks on elm-conf US 2017</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jun 2017 13:25:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.elm-conf.us/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Afternoon Break</title>
+      <link>https://www.elm-conf.us/talks/afternoon-break/</link>
+      <pubDate>Mon, 05 Jun 2017 13:25:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/afternoon-break/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lunch</title>
+      <link>https://www.elm-conf.us/talks/lunch/</link>
+      <pubDate>Mon, 05 Jun 2017 13:25:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/lunch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Morning Break</title>
+      <link>https://www.elm-conf.us/talks/morning-break/</link>
+      <pubDate>Mon, 05 Jun 2017 13:25:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/morning-break/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jonas Coch</title>
+      <link>https://www.elm-conf.us/talks/jonas-coch/</link>
+      <pubDate>Mon, 05 Jun 2017 11:46:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/jonas-coch/</guid>
+      <description>&lt;p&gt;Jonas Coch is a frontend webdeveloper at iosphere, living in Cologne, Germany. He used to hack arounds IE 6 bugs, fell in love with XSLT and now likes Elm. He writes code to show data on web-maps, introduced Elm at his workplace and wrote elm-search, a search engine for all exposed values of all published packages.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Luke Westby</title>
+      <link>https://www.elm-conf.us/talks/luke-westby/</link>
+      <pubDate>Mon, 05 Jun 2017 11:43:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/luke-westby/</guid>
+      <description>&lt;p&gt;Luke Westby is a cofounder and partner at HumbleSpark in Chicago, IL, USA. He is the creator of the browser-based Elm editor Ellie and an active member of the Elm community. He loves contributing to the Elm community by speaking about the language, answering questions in Slack, writing blog posts, and organizing the Chicago Elm Meetup.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Peter Zingg</title>
+      <link>https://www.elm-conf.us/talks/peter-zingg/</link>
+      <pubDate>Sun, 04 Jun 2017 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/peter-zingg/</guid>
+      <description>&lt;p&gt;Peter has been using Elm in production on a single-page app, learning from scratch, since December 2016. He has been a coder since the dawn of modern programming languages (Dartmouth BASIC in 1968), and finds Elm to be as nice a revelation for the Javascript era as Ruby on Rails was for the C++ era.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tereza Sokol</title>
+      <link>https://www.elm-conf.us/talks/tereza-sokol/</link>
+      <pubDate>Sun, 04 Jun 2017 13:24:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/tereza-sokol/</guid>
+      <description>&lt;p&gt;Tereza is an engineer at NoRedInk working on the Elm frontend as well as the developer of elm-plot, a plotting library written purely in Elm.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tessa Kelly</title>
+      <link>https://www.elm-conf.us/talks/tessa-kelly/</link>
+      <pubDate>Sun, 04 Jun 2017 13:00:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/tessa-kelly/</guid>
+      <description>&lt;p&gt;Tessa Kelly is a software engineer at NoRedInk, an edtech company helping teachers teach grammar and writing, where she builds out new features in Elm, writes the occasional blog post, and never needs to argue about the Oxford comma. Tessa holds a BA in mathematics from New York University, where she minored in history and Middle Eastern studies.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Andrey Kuzmin</title>
+      <link>https://www.elm-conf.us/talks/andrey-kuzmin/</link>
+      <pubDate>Sat, 03 Jun 2017 19:22:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/andrey-kuzmin/</guid>
+      <description>&lt;p&gt;Andrey is a frontend engineer at SoundCloud. His journey into Elm was through programming games, most notably elm-flatris and elm-street-404. The latter got him interested in WebGL and then he became a maintainer of the library. Apart from work, he enjoys live music in Berlin and is a yoga newbie.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Richard Feldman</title>
+      <link>https://www.elm-conf.us/talks/richard-feldman/</link>
+      <pubDate>Fri, 02 Jun 2017 23:33:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/richard-feldman/</guid>
+      <description>&lt;p&gt;Richard is the author of “Elm in Action” from Manning Publications, and the instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm meetup, he likes to take a break from his job at NoRedInk (where front-end programmers spend almost almost all their coding time writing production Elm code) by kicking back and working on some of his open-source Elm projects.&lt;/p&gt;
+
+&lt;p&gt;Some have said he’s “into Elm,” but he’s not sure where they got that wild idea.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Murphy Randle</title>
+      <link>https://www.elm-conf.us/talks/murphy-randle/</link>
+      <pubDate>Fri, 02 Jun 2017 23:31:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/murphy-randle/</guid>
+      <description>&lt;p&gt;Murphy is a father of two. He comes from a background in feature film animation, but he is now a professional Web engineer and CS Master’s student. He&amp;rsquo;d like to give you a hi-five.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jeremy Fairbank</title>
+      <link>https://www.elm-conf.us/talks/jeremy-fairbank/</link>
+      <pubDate>Fri, 02 Jun 2017 23:27:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/jeremy-fairbank/</guid>
+      <description>&lt;p&gt;Jeremy is a web developer with a master&amp;rsquo;s degree in computer science. He has many years of experience in front-end development and full-stack development, working heavily with JavaScript and Ruby. He has presented numerous times at conferences such as Fluent Conf and RailsConf. He is passionate about front-end development and its future, taking that passion to the world of Elm too. He is currently authoring a book on Elm with The Pragmatic Programmers.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Evan Czaplicki</title>
+      <link>https://www.elm-conf.us/talks/evan-czaplicki/</link>
+      <pubDate>Fri, 02 Jun 2017 23:22:00 +0000</pubDate>
+      
+      <guid>https://www.elm-conf.us/talks/evan-czaplicki/</guid>
+      <description>&lt;p&gt;Evan created Elm. He works at NoRedInk, a company with about 100k lines of Elm in production that have never thrown a runtime exception. He is an open source engineer there, developing the language, tools, and libraries full-time.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

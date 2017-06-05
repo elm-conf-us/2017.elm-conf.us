@@ -1,0 +1,162 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//elm-conf//speaker calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Afternoon Break
+UID:2017-09-28T14:30:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170605T132500Z
+DTSTART;TZID=America/Chicago:20170928T143000
+DTEND;TZID=America/Chicago:20170928T150000
+LOCATION:St. Louis Union Station
+URL:https://www.elm-conf.us/talks/afternoon-break/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Lunch
+UID:2017-09-28T11:00:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170605T132500Z
+DTSTART;TZID=America/Chicago:20170928T110000
+DTEND;TZID=America/Chicago:20170928T123000
+LOCATION:St. Louis Union Station
+URL:https://www.elm-conf.us/talks/lunch/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Morning Break
+UID:2017-09-28T09:20:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170605T132500Z
+DTSTART;TZID=America/Chicago:20170928T092000
+DTEND;TZID=America/Chicago:20170928T094000
+LOCATION:St. Louis Union Station
+URL:https://www.elm-conf.us/talks/morning-break/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Jonas Coch – Building a Slippy Map Library in Pure Elm
+UID:2017-09-28T09:00:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170605T114600Z
+DTSTART;TZID=America/Chicago:20170928T090000
+DTEND;TZID=America/Chicago:20170928T092000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/jonas-coch/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Luke Westby – Putting the Elm Platform in the Browser
+UID:2017-09-28T12:35:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170605T114300Z
+DTSTART;TZID=America/Chicago:20170928T123500
+DTEND;TZID=America/Chicago:20170928T125500
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/luke-westby/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Peter Zingg – Case Study: Activate Your Interface with CSS and Elm
+UID:2017-09-28T14:10:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170604T140000Z
+DTSTART;TZID=America/Chicago:20170928T141000
+DTEND;TZID=America/Chicago:20170928T143000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/peter-zingg/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Tereza Sokol – If Coco Chanel Reviewed Elm
+UID:2017-09-28T15:30:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170604T132400Z
+DTSTART;TZID=America/Chicago:20170928T153000
+DTEND;TZID=America/Chicago:20170928T155000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/tereza-sokol/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Tessa Kelly – Accessibility with Elm
+UID:2017-09-28T09:45:00-05:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170604T130000Z
+DTSTART;TZID=America/Chicago:20170928T094500
+DTEND;TZID=America/Chicago:20170928T103000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/tessa-kelly/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Andrey Kuzmin – Mogee or how we fit Elm in a 64×64 grid
+UID:2017-09-28T15:00:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170603T192200Z
+DTSTART;TZID=America/Chicago:20170928T150000
+DTEND;TZID=America/Chicago:20170928T152000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/andrey-kuzmin/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Richard Feldman – Closing Keynote
+UID:2017-09-28T16:00:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170602T233300Z
+DTSTART;TZID=America/Chicago:20170928T160000
+DTEND;TZID=America/Chicago:20170928T162000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/richard-feldman/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Murphy Randle – A very im-port-ant topic
+UID:2017-09-28T10:40:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170602T233100Z
+DTSTART;TZID=America/Chicago:20170928T104000
+DTEND;TZID=America/Chicago:20170928T110000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/murphy-randle/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Jeremy Fairbank – Solve the Boolean Identity Crisis
+UID:2017-09-28T13:10:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170602T232700Z
+DTSTART;TZID=America/Chicago:20170928T131000
+DTEND;TZID=America/Chicago:20170928T135500
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/jeremy-fairbank/
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+SUMMARY:Evan Czaplicki – Keynote
+UID:2017-09-28T08:05:00-06:00@2017.elm-conf.us
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20170602T232200Z
+DTSTART;TZID=America/Chicago:20170928T080500
+DTEND;TZID=America/Chicago:20170928T085000
+LOCATION:Main Ballroom
+URL:https://www.elm-conf.us/talks/evan-czaplicki/
+END:VEVENT
+END:VCALENDAR

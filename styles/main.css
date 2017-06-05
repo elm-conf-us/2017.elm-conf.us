@@ -331,7 +331,7 @@ header > .content > nav > ul > li > a:hover {
 
 @media screen and (min-width: 768px) {
         header nav > ul > li {
-    margin-right: 25px;
+    margin-right: 10px;
 }
 }
 
@@ -479,10 +479,9 @@ main  article > .logo-sponsor {
 main  article + article {
     margin-top: 50px;
     padding-top: 50px;
-    border-top: 1px solid #CCC;
 }
 
-main  section > h2.level {
+main  section > h1.level {
     margin-bottom: 50px;
     margin-top: 50px;
 }

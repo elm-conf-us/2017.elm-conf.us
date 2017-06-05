@@ -6,10 +6,33 @@
     <description>Recent content in News on elm-conf US 2017</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Apr 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jun 2017 08:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://www.elm-conf.us/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Speakers Announced</title>
+      <link>https://www.elm-conf.us/news/lineup/</link>
+      <pubDate>Mon, 05 Jun 2017 08:00:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/news/lineup/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re pleased to announce the 2017 elm-conf speaker lineup.
+It&amp;rsquo;s a wonderful mix of veteran and new speakers across a wide variety of topics.
+Our full speaker lineup and full schedule can be found on &lt;a href=&#34;https://www.elm-conf.us/talks/&#34;&gt;the talks page&lt;/a&gt;, or you can &lt;a href=&#34;webcal://www.elm-conf.us/talks/index.ics&#34;&gt;add our calendar to your schedule&lt;/a&gt; for the most up-to-date information as we get closer to September 28.&lt;/p&gt;
+
+&lt;p&gt;We will be recording all the talks and making them available online thanks to our kind sponsors at &lt;a href=&#34;http://localhost:1313/sponsors/ableton/&#34;&gt;Ableton&lt;/a&gt;.
+Thanks to &lt;a href=&#34;http://futurice.com/&#34;&gt;Futurice&lt;/a&gt; we will have live captioning at the venue on the day of the conference.
+A huge thank you to both sponsors for helping us make elm-conf more accessible to everyone!&lt;/p&gt;
+
+&lt;p&gt;Registration for elm-conf opens Thursday, June 8 at 10AM Central Time.
+You will &lt;a href=&#34;https://thestrangeloop.com/register.html&#34;&gt;buy a ticket through Strange Loop&amp;rsquo;s registration&lt;/a&gt;, but it is not necessary to attend Strange Loop to attend elm-conf.
+If you do want to attend both events be prepared to buy tickets quickly as Strange Loop usually sells out in under an hour.&lt;/p&gt;
+
+&lt;p&gt;See you soon!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Call For Proposals Open Through May 12</title>

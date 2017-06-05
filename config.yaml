@@ -8,3 +8,6 @@ params:
   social:
     twitter: ElmConf
     hashtag: elmconf
+
+outputs:
+  section: ["HTML", "RSS", "Calendar"]

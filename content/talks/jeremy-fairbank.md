@@ -12,6 +12,6 @@ While powerful in its simplicity and important to computation, the boolean can b
 
 ---
 
-Jeremy is a web developer with a master's degree in computer science. He has many years of experience in front-end development and full-stack development, working heavily with JavaScript and Ruby. He has presented numerous times at conferences such as Fluent Conf and RailsConf. He is passionate about front-end development and its future, taking that passion to the world of Elm too. He is currently authoring a book on Elm with The Pragmatic Programmers.
+Jeremy is a web developer with a master's degree in computer science. He works for Test Double, helping improve how the world builds software. He has many years of experience in front-end development and is passionate about its future, taking that passion to the world of Elm too. He is currently authoring a book on Elm with The Pragmatic Programmers.
 
 <!--more-->

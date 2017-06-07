@@ -6,5 +6,3 @@ slot:
   start: "2017-09-28T11:00:00-06:00"
   end: "2017-09-28T12:30:00-06:00"
 ---
-
-Lunch will be available for purchase at the venue on the day of the event.

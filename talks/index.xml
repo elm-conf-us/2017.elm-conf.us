@@ -44,7 +44,15 @@
       <pubDate>Mon, 05 Jun 2017 11:46:00 +0000</pubDate>
       
       <guid>https://www.elm-conf.us/talks/jonas-coch/</guid>
-      <description>&lt;p&gt;Jonas Coch is a frontend webdeveloper at iosphere, living in Cologne, Germany. He used to hack arounds IE 6 bugs, fell in love with XSLT and now likes Elm. He writes code to show data on web-maps, introduced Elm at his workplace and wrote elm-search, a search engine for all exposed values of all published packages.&lt;/p&gt;
+      <description>&lt;p&gt;Web applications often need interactive UI elements, e.g. slippy maps. Currently one has to interface with existing JS libraries with some trickery to have a map in an Elm app.&lt;/p&gt;
+
+&lt;p&gt;In this talk we will explore a different approach: a slippy map library written in pure Elm. You will hear about the initial motivation, see how it is implemented, learn about API decisions and get to know how to use, customize and extend a slippy map.&lt;/p&gt;
+
+&lt;p&gt;This will not only give you an additional UI widget in your Elm tool belt, but will hopefully teach you about how to build and use stateful UI elements in Elm in general.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Jonas Coch is a frontend webdeveloper at iosphere, living in Cologne, Germany. He used to hack arounds IE 6 bugs, fell in love with XSLT and now likes Elm. He writes code to show data on web-maps, introduced Elm at his workplace and wrote elm-search, a search engine for all exposed values of all published packages.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
@@ -55,7 +63,11 @@
       <pubDate>Mon, 05 Jun 2017 11:43:00 +0000</pubDate>
       
       <guid>https://www.elm-conf.us/talks/luke-westby/</guid>
-      <description>&lt;p&gt;Luke Westby is a cofounder and partner at HumbleSpark in Chicago, IL, USA. He is the creator of the browser-based Elm editor Ellie and an active member of the Elm community. He loves contributing to the Elm community by speaking about the language, answering questions in Slack, writing blog posts, and organizing the Chicago Elm Meetup.&lt;/p&gt;
+      <description>&lt;p&gt;I wanted it to be easier for folks to try the Elm platform and share it with each other, so I made Ellie and put it in the browser! Since its release in January of this year people have shared about 5000 revisions, but this is only the beginning. I want you all to share in my appreciation for this community and my desire for it to grow, so in this talk I&amp;rsquo;m going to share the life story of Ellie. You&amp;rsquo;ll feel like you were there on the day Ellie was first released, take an adventure through some of its inner workings, and learn exactly where Ellie is headed and what we can do together to bring more tools like it to the community.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Luke Westby is a cofounder and partner at HumbleSpark in Chicago, IL, USA. He is the creator of the browser-based Elm editor Ellie and an active member of the Elm community. He loves contributing to the Elm community by speaking about the language, answering questions in Slack, writing blog posts, and organizing the Chicago Elm Meetup.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
@@ -77,7 +89,11 @@
       <pubDate>Sun, 04 Jun 2017 13:24:00 +0000</pubDate>
       
       <guid>https://www.elm-conf.us/talks/tereza-sokol/</guid>
-      <description>&lt;p&gt;Tereza is an engineer at NoRedInk working on the Elm frontend as well as the developer of elm-plot, a plotting library written purely in Elm.&lt;/p&gt;
+      <description>&lt;p&gt;What would Chanel say if inquired about the design choices of Elm? How do packages resemble wardrobes? What makes a good outfit and why is it relevant for you? The questions are many and seemingly nonsensical, but from the right perspective, the fashion and software industry are more alike than most would think. In this talk, we’ll examine these parallels in order to explore the nature of design.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Tereza is an engineer at NoRedInk working on the Elm frontend as well as the developer of elm-plot, a plotting library written purely in Elm.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
@@ -99,7 +115,21 @@
       <pubDate>Sat, 03 Jun 2017 19:22:00 +0000</pubDate>
       
       <guid>https://www.elm-conf.us/talks/andrey-kuzmin/</guid>
-      <description>&lt;p&gt;Andrey is a frontend engineer at SoundCloud. His journey into Elm was through programming games, most notably elm-flatris and elm-street-404. The latter got him interested in WebGL and then he became a maintainer of the library. Apart from work, he enjoys live music in Berlin and is a yoga newbie.&lt;/p&gt;
+      <description>&lt;p&gt;Mogee is a side-scroller that I created with my wife Nadya in three days for the #lowrezjam 2016. Since then we&amp;rsquo;ve been working on this game on our free time: added a music theme and improved the visuals.&lt;/p&gt;
+
+&lt;p&gt;You will learn how to evolve a simple time-travelling Mario example into a full fledged game. Even though Elm makes it easy and joyful, there are a few challenges to overcome:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;growing complexity of the code;&lt;/li&gt;
+&lt;li&gt;interactions between different game objects in the game loop;&lt;/li&gt;
+&lt;li&gt;rendering animated objects with WebGL.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the end you will witness yet another milestone of our game, and it&amp;rsquo;s going to be remarkable!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Andrey is a frontend engineer at SoundCloud. His journey into Elm was through programming games, most notably elm-flatris and elm-street-404. The latter got him interested in WebGL and then he became a maintainer of the library. Apart from work, he enjoys live music in Berlin and is a yoga newbie.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

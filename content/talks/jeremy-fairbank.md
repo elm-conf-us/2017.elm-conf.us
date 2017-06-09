@@ -1,6 +1,6 @@
 ---
 title: "Jeremy Fairbank"
-talk: "Solve the Boolean Identity Crisis"
+talk: "Solving the Boolean Identity Crisis"
 headshot: "/images/speakers/jeremy.jpg"
 date: "2017-06-02T23:27:00Z"
 slot:

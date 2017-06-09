@@ -137,7 +137,7 @@ URL:https://www.elm-conf.us/talks/murphy-randle/
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
-SUMMARY:Jeremy Fairbank – Solve the Boolean Identity Crisis
+SUMMARY:Jeremy Fairbank – Solving the Boolean Identity Crisis
 UID:2017-09-28T13:10:00-06:00@2017.elm-conf.us
 SEQUENCE:0
 STATUS:CONFIRMED

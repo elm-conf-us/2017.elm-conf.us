@@ -1,0 +1,6 @@
+[build]
+  publish = "public"
+  command = "make"
+
+[context.environment]
+  HUGO_VERSION = "0.25"

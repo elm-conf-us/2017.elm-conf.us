@@ -12,6 +12,6 @@ I wanted it to be easier for folks to try the Elm platform and share it with eac
 
 ---
 
-Luke Westby is a cofounder and partner at HumbleSpark in Chicago, IL, USA. He is the creator of the browser-based Elm editor Ellie and an active member of the Elm community. He loves contributing to the Elm community by speaking about the language, answering questions in Slack, writing blog posts, and organizing the Chicago Elm Meetup.
+Luke Westby is an engineer at [NoRedInk](noredink.com). He is the creator of the browser-based Elm editor [Ellie](ellie-app.com) and an active member of the Elm community. He loves contributing to the Elm community by speaking about the language, answering questions in Slack, writing blog posts, and attending the Chicago Elm Meetup.
 
 <!--more-->

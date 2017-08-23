@@ -1,6 +1,6 @@
 ---
 title: "Murphy Randle"
-talk: "A very im-port-ant topic"
+talk: "The Importance of Ports"
 headshot: "/images/speakers/murphy.jpg"
 date: "2017-06-02T23:31:00Z"
 slot:

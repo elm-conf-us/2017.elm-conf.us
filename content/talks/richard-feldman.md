@@ -1,6 +1,6 @@
 ---
 title: "Richard Feldman"
-talk: "Closing Keynote"
+talk: "Teaching Elm to Beginners"
 headshot: "/images/speakers/richard.jpg"
 date: "2017-06-02T23:33:00Z"
 slot:

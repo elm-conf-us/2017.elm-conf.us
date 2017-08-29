@@ -1,6 +1,6 @@
 ---
 title: "Peter Zingg"
-talk: "Case Study: Activate Your Interface with CSS and Elm"
+talk: "Activate Your Interface with CSS Animations"
 headshot: "/images/speakers/peter.jpg"
 date: "2017-06-04T14:00:00Z"
 slot:

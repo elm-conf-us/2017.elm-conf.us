@@ -327,6 +327,7 @@ mainContent =
                                     [ float left
                                     , marginLeft zero
                                     , important <| marginRight <| logoWidth |*| px 0.1
+                                    , paddingBottom (px 50)
                                     ]
                                 ]
                             ]

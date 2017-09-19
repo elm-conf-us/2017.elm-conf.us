@@ -40,7 +40,7 @@ gridSquare =
 
 squares : Float -> Px
 squares n =
-    gridSquare |*| (px n)
+    gridSquare |*| px n
 
 
 gridMaxWidth : Px
@@ -212,70 +212,70 @@ headerAndNav =
                     ]
                 ]
     in
-        [ header
-            [ backgroundImage <| url "/images/footer_lodyas.png"
-            , color white
-            , withClass "home" [ paddingBottom (squares 1) ]
-            , children
-                [ class "content"
-                    [ gridContainer
-                    , displayFlex
-                    , flexDirection column
-                    , alignItems center
-                    , justifyContent spaceBetween
-                    , children
-                        [ masthead
-                        , navLinks
-                        , info
-                        , everything
-                            [ maxWidth (pct 80)
-                            , margin2 zero auto
-                            ]
-                        ]
-                    ]
-                ]
-            ]
-        , tablet
-            [ header
-                [ backgroundImage (url "/images/header.png")
-                , backgroundSize cover
-                , backgroundPosition bottom
-                , backgroundRepeat noRepeat
-                ]
-            ]
-        , desktop
-            [ header
-                [ backgroundImage (url "/images/header-short.png")
-                , backgroundSize cover
-                , backgroundPosition2 (pct 50) (px -30)
-                , flexDirection row
+    [ header
+        [ backgroundImage <| url "/images/footer_lodyas.png"
+        , color white
+        , withClass "home" [ paddingBottom (squares 1) ]
+        , children
+            [ class "content"
+                [ gridContainer
+                , displayFlex
+                , flexDirection column
+                , alignItems center
+                , justifyContent spaceBetween
                 , children
-                    [ class "content"
-                        [ flexWrap wrap
-                        , flexDirection column
-                        , alignItems flexStart
-                        , height <| squares 1.25
-                        , children
-                            [ everything
-                                [ width restWidth
-                                , Css.margin zero
-                                ]
-                            ]
-                        ]
-                    ]
-                , withClass "home"
-                    [ backgroundImage (url "/images/header.png")
-                    , backgroundPosition bottom
-                    , children
-                        [ class "content"
-                            [ height <| squares 5
-                            , marginBottom margin
-                            ]
+                    [ masthead
+                    , navLinks
+                    , info
+                    , everything
+                        [ maxWidth (pct 80)
+                        , margin2 zero auto
                         ]
                     ]
                 ]
             ]
         ]
+    , tablet
+        [ header
+            [ backgroundImage (url "/images/header.png")
+            , backgroundSize cover
+            , backgroundPosition bottom
+            , backgroundRepeat noRepeat
+            ]
+        ]
+    , desktop
+        [ header
+            [ backgroundImage (url "/images/header-short.png")
+            , backgroundSize cover
+            , backgroundPosition2 (pct 50) (px -30)
+            , flexDirection row
+            , children
+                [ class "content"
+                    [ flexWrap wrap
+                    , flexDirection column
+                    , alignItems flexStart
+                    , height <| squares 1.25
+                    , children
+                        [ everything
+                            [ width restWidth
+                            , Css.margin zero
+                            ]
+                        ]
+                    ]
+                ]
+            , withClass "home"
+                [ backgroundImage (url "/images/header.png")
+                , backgroundPosition bottom
+                , children
+                    [ class "content"
+                        [ height <| squares 5
+                        , marginBottom margin
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
 
 
 mainContent : List Snippet
@@ -306,13 +306,13 @@ mainContent =
                         , display block
                         , width (pct 80)
                         , margin2 zero auto
-                        , maxWidth <| logoWidth |*| (px 0.8)
+                        , maxWidth <| logoWidth |*| px 0.8
                         , children
                             [ desktop
                                 [ class "calloutImage"
                                     [ float left
-                                    , important <| width <| logoWidth |*| (px 0.8)
-                                    , important <| margin2 zero (logoWidth |*| (px 0.1))
+                                    , important <| width <| logoWidth |*| px 0.8
+                                    , important <| margin2 zero (logoWidth |*| px 0.1)
                                     ]
                                 ]
                             ]
@@ -326,7 +326,7 @@ mainContent =
                                 [ class "logo-sponsor"
                                     [ float left
                                     , marginLeft zero
-                                    , important <| marginRight <| logoWidth |*| (px 0.1)
+                                    , important <| marginRight <| logoWidth |*| px 0.1
                                     ]
                                 ]
                             ]
@@ -355,7 +355,7 @@ mainContent =
                                     [ h1
                                         [ width logoWidth
                                         , textAlign center
-                                        , marginTop <| (squares 1) |*| (px -1)
+                                        , marginTop <| squares 1 |*| px -1
                                         , backgroundColor white
                                         , height (squares 1)
                                         , paddingTop (squares 0.25)

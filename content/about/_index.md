@@ -27,7 +27,7 @@ Talks are selected anonymously by a diverse talk selection committee.
 ## Organizers:
 
  - Brian Hicks ([@brianhicks](https://twitter.com/brianhicks))
- - Luke Westby ([@luke_dot_js](https://twitter.com/luke_dot_js) / [@ellie_editor](https://twitter.com/ellie_editor))
+ - Luke Westby ([@ellie_editor](https://twitter.com/ellie_editor))
 
 ## Site Assets
 
